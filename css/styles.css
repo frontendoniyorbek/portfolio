@@ -4,7 +4,6 @@
 	--nav-color: #f8fafc;
 	--blog-bg: rgb(30, 41, 59);
 	--hover-color: #22d3ee;
-
 	--footer-bg: #0f172a;
 }
 
@@ -92,7 +91,7 @@ a {
 }
 
 .site-wrapper {
-	background-color: var(--blog-bg);
+	background-color: var(--footer-bg);
 }
 
 main {
@@ -100,8 +99,12 @@ main {
 }
 
 .site-header {
+	position: fixed;
 	padding-top: 3.2rem;
 	padding-bottom: 3.2rem;
+	width: 100vw;
+	background-color: var(--footer-bg);
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .site-header__container {
@@ -153,6 +156,7 @@ main {
 .hero {
 	padding-top: 8.5rem;
 	padding-bottom: 13.3rem;
+	margin-top: 12rem;
 }
 
 .hero__container {
@@ -286,6 +290,10 @@ main {
 	padding-top: 5.3rem;
 	padding-bottom: 9.1rem;
 	color: var(--nav-color);
+}
+
+.latese-posts-block {
+	padding-top: 15rem;
 }
 
 .latese-posts__info {
@@ -520,6 +528,10 @@ main {
 		padding-bottom: 5rem;
 	}
 
+	.latese-posts-block {
+		padding-top: 12rem;
+	}
+
 	.latese-posts__info {
 		margin-bottom: 6rem;
 	}
@@ -639,6 +651,10 @@ main {
 	.hero {
 		padding-top: 5rem;
 		padding-bottom: 8rem;
+	}
+
+	.hero {
+		margin-top: 6.5rem;
 	}
 	.hero__container {
 		flex-direction: column-reverse;
@@ -845,6 +861,10 @@ main {
 	.latese-posts {
 		padding-top: 3.4rem;
 		padding-bottom: 4.2rem;
+	}
+
+	.latese-posts-block {
+		padding-top: 12rem;
 	}
 
 	.latese-posts__info {
